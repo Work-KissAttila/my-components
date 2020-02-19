@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+/* ==== SIMPLE FOOTER STYLES ==== */
 
 footer {
   background: url('http://i.imgur.com/f4jGhSF.png') repeat center;
@@ -13,6 +11,11 @@ footer {
   font-size: .875rem;
 }
 
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 footer small {
   color: #ccc;
   letter-spacing: .025rem;
@@ -21,8 +24,8 @@ footer small {
 }
 
 .footer-nav a {
-  text-decoration: none;
   color: #c74f78;
+  text-decoration: none;
   margin: 0 .5rem;
   display: inline-block;
 }
@@ -30,6 +33,12 @@ footer small {
 .footer-nav a:hover {
   color: #f26896;
   transition: color .15s ease-in-out;
+}
+
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
 }
 
 strong {
